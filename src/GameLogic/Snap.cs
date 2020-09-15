@@ -146,6 +146,10 @@ namespace CardGames.GameLogic
                 _score[player]++;
                 //TODO: consider playing a sound here...\
                 //Loading Sound Effect
+                SwinGame.LoadSoundEffectNamed("Slap", "slap.wav");
+
+                //Play Sound Effect
+                SwinGame.PlaySoundEffect("Slap");
 
             }
 

@@ -152,6 +152,10 @@ namespace CardGames.GameLogic
                 SwinGame.PlaySoundEffect("Slap");
 
             }
+            else if (player >= 0 && player < _score.Length)
+            {
+                _score[player]--;
+            }
 
             // stop the game...
             _started = false;
